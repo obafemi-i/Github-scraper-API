@@ -9,7 +9,7 @@ class Extract():
 
         soup = BeautifulSoup(req.content, 'lxml')
 
-        dlist = []
+        dlist = [] 
 
         pic = soup.find('img', class_ = 'avatar avatar-user width-full border color-bg-default')['src']
         repo = soup.find('span', class_ ='Counter').text
@@ -21,6 +21,7 @@ class Extract():
             'Number of repos' : repo
         }
         dlist.append(profile)
+        
 
         return dlist
 

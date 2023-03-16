@@ -1,7 +1,16 @@
-# Github-pic-and-repo-API
+### Github Scraper API
 
-start the api
 
-Input any github id name at the url
+**Requirements**
+> Python 3.7 and above.
+> FastAPI.
+> Beautiful Soup4.
 
-Get the profile picture and the amount of repositories of the inputed id name
+To install required libraries, 
+>```pip install -r requirements.txt```
+
+
+After requiremnets have been installed,
+1. Input any github id name in the url variable.
+2. Run ```python main.py```
+3. Get the profile picture and the amount of repositories of the inputed id name.

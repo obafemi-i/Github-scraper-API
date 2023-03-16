@@ -10,7 +10,7 @@ To install required libraries,
 >```pip install -r requirements.txt```
 
 
-After requiremnets have been installed,
+After requirements have been installed,
 1. Input any github id name in the url variable.
 2. Run ```python main.py```
 3. Get the profile picture and the amount of repositories of the inputed id name.
